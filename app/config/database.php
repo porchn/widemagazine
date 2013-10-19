@@ -62,10 +62,10 @@ $db[$active_group]['stricton'] = FALSE;
 
 if (ENVIRONMENT == 'development') 
 {
-	$db[$active_group]['hostname'] = '';
-	$db[$active_group]['username'] = '';
-	$db[$active_group]['password'] = '';
-	$db[$active_group]['database'] = '';
+	$db[$active_group]['hostname'] = 'localhost';
+	$db[$active_group]['username'] = 'root';
+	$db[$active_group]['password'] = '123';
+	$db[$active_group]['database'] = 'widemagazine_db';
 } 
 elseif(ENVIRONMENT == 'production') 
 {

@@ -9,7 +9,9 @@ class Home extends MY_Controller {
 	
 	public function index()
 	{
+		$this->template->set_template('main');
 
+		$this->template->render();
 	}
 
 }

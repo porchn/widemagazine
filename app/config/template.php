@@ -56,7 +56,7 @@ $template['template_dir'] = 'template';
 |--------------------------------------------------------------------------
 */
 $template['default']['template'] = $template['template_dir'].'/default/index';
-$template['default']['template_core'] = '';
+$template['default']['template_core'] = 'index';
 $template['default']['regions'] = array(
 	'header',
 	'sidebar',
@@ -79,6 +79,36 @@ $template['default']['meta_description'] = '';
 $template['default']['meta_keywords'] = '';
 $template['default']['body_id'] = '';
 $template['default']['title'] = '';
+
+
+/*
+|--------------------------------------------------------------------------
+| main Template Configuration (adjust this or create your own)
+|--------------------------------------------------------------------------
+*/
+$template['main']['template'] = $template['template_dir'].'/main/index';
+$template['main']['template_core'] = 'index';
+$template['main']['regions'] = array(
+	'header',
+    'content',
+    'footer'
+);
+$template['main']['regions_map'] = '';
+$template['main']['parser'] = 'parser';
+$template['main']['parser_method'] = 'parse';
+$template['main']['parser_template'] = FALSE;
+$template['main']['css'] = array();
+$template['main']['js'] = array();
+$template['main']['doctype'] = 'html5';
+$template['main']['use_favicon'] = FALSE;
+$template['main']['favicon_location'] = '';
+$template['main']['meta_content'] = 'UTF-8';
+$template['main']['meta_language'] = 'en-US';
+$template['main']['meta_author'] = '';
+$template['main']['meta_description'] = '';
+$template['main']['meta_keywords'] = '';
+$template['main']['body_id'] = '';
+$template['main']['title'] = '';
 
 /* End of file template.php */
 /* Location: ./system/application/config/template.php */
