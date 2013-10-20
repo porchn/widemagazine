@@ -1,17 +1,13 @@
-<div class="full">
-	<div class="header full borderbott">
-		<?php echo $header; ?>
-	</div>
-
-	<div class="container">
-		<div class="body full">
-			<?php
-				echo $content;
-			?>
-			<div class="clear"></div>
-		</div>
-	</div>
-	<div class="full">
-		<?php echo $footer; ?>
-	</div>
+<div class="vc_body">
+	<?php 
+		echo $header; 
+	?>
+	<?php
+		echo $content;
+	?>
+	<?php 
+		echo $footer;
+	?>
 </div>
+<!-- .vc_body END  -->
+<a class="back-top" href="#" id="back-top"> <i class="icon-chevron-up icon-white"> </i> </a> 

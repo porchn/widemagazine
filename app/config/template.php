@@ -97,8 +97,44 @@ $template['main']['regions_map'] = '';
 $template['main']['parser'] = 'parser';
 $template['main']['parser_method'] = 'parse';
 $template['main']['parser_template'] = FALSE;
-$template['main']['css'] = array();
-$template['main']['js'] = array();
+$template['main']['css'] = array(
+	array(site_assets_url('css/bootstrap.min.css'),'css_core'),
+	array(site_assets_url('css/font-awesome.min.css'),'css_core'),
+	array(site_assets_url('css/fonts.css'), 'css_core' ),
+	array(site_assets_url('plugins/prettyPhoto-plugin/css/prettyPhoto.css'), 'css_core' ),
+	array(site_assets_url('plugins/isotope-plugin/css/isotope.css'), 'css_core' ),
+	array(site_assets_url('plugins/rs-plugin/css/settings.css'), 'css_core' ),
+	array(site_assets_url('plugins/google-code-prettify/prettify.css'), 'css_core' ),
+	array(site_assets_url('css/theme.css'), 'css_core' ),
+	array(site_assets_url('css/header/header-5.css'), 'css_core' ),
+	array(site_assets_url('css/mode/mode-1-header.css'), 'css_core' ),
+	array(site_assets_url('css/mode/mode-1-footer.css'), 'css_core' ),
+	array(site_assets_url('css/color/color-blue.css'), 'css_core' ),
+	array(site_assets_url('css/theme-responsive.css'), 'css_core' ),
+	array(site_assets_url('css/header/header-5-responsive.css'), 'css_core' ),
+	array(site_assets_url('css/mode/mode-1-header-responsive.css'), 'css_core' ),
+	array(site_assets_url('css/mode/mode-1-footer-responsive.css'), 'css_core' ),
+	array(site_assets_url('custom/custom.css'), 'css_core' )
+	);
+$template['main']['js'] = array(
+	array(site_assets_url('js/modernizr.js'), 'js_core' ),
+	array(site_assets_url('js/jquery.js'), 'js_view' ),
+	array(site_assets_url('js/bootstrap.min.js'), 'js_view' ),
+	array(site_assets_url('js/tinyscrollbar.js'), 'js_view' ),
+	array(site_assets_url('js/caroufredsel.js'), 'js_view' ),
+	array(site_assets_url('js/plugins.js'), 'js_view' ),
+	array(site_assets_url('plugins/prettyPhoto-plugin/js/jquery.prettyPhoto.js'), 'js_view' ),
+	array(site_assets_url('plugins/isotope-plugin/js/jquery.isotope.min.js'), 'js_view' ),
+	array(site_assets_url('functions/twitter/jquery.tweet.js'), 'js_view' ),
+	array(site_assets_url('js/theme.js'), 'js_view' ),
+	array(site_assets_url('js/skycons.js'), 'js_view' ),
+	array(site_assets_url('custom/custom.js'), 'js_view' ),
+	array(site_assets_url('plugins/rs-plugin/js/jquery.themepunch.revolution.min.js'), 'js_view' ),
+	array(site_assets_url('js/specific/index-revolution.js'), 'js_view' ),
+	array(site_assets_url('js/specific/metro-slider.js'), 'js_view' ),
+	array(site_assets_url('js/specific/quick-contact.js'), 'js_view' )
+	
+);
 $template['main']['doctype'] = 'html5';
 $template['main']['use_favicon'] = FALSE;
 $template['main']['favicon_location'] = '';
