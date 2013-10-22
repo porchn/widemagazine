@@ -9,7 +9,7 @@
         </ul>
       </div>
     </li>
-    <li id="mega-menu"> <a href="#"> แฟชั่น &amp; ความงาม </a> 
+    <li id="mega-menu"> <a href="#"> แฟชั่น &amp;ความงาม </a> 
       <div class="vc_menu-open-right vc_mega-menu medium-width">
         <div class="child-menu">                   
            <h3>Responsive Mega Menu</h3> 

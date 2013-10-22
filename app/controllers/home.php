@@ -11,6 +11,7 @@ class Home extends MY_Controller {
 	{
 		$this->template->set_template('main');
 
+		$data['page']='home';
 		$data['main_menu']=modules::run('widgets/wg_menu/index',null);
 		$this->template->write_view('header','template/main/header',$data,true);
 		$this->template->write_view('content','template/main/content',null,true);
