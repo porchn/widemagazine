@@ -192,7 +192,7 @@
                 <h3> <a href="blog-single.php"> Starting a new business </a> </h3>
                 <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
                 <div class="description">
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... <a href="blog-single.php" class="vc_read-more"> read more </a> </p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... </p>
                 </div>
               </div>
             </div>
@@ -217,7 +217,7 @@
                 <h3> <a href="blog-single.php"> Starting a new business </a> </h3>
                 <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
                 <div class="description">
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... <a href="blog-single.php" class="vc_read-more"> read more </a> </p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... </p>
                 </div>
               </div>
             </div>
@@ -242,7 +242,7 @@
                 <h3> <a href="blog-single.php"> Starting a new business </a> </h3>
                 <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
                 <div class="description">
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... <a href="blog-single.php" class="vc_read-more"> read more </a> </p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... </p>
                 </div>
               </div>
             </div>
@@ -267,7 +267,7 @@
                 <h3> <a href="blog-single.php"> Starting a new business </a> </h3>
                 <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
                 <div class="description">
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... <a href="blog-single.php" class="vc_read-more"> read more </a> </p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... </p>
                 </div>
               </div>
             </div>
@@ -283,4 +283,170 @@
     <!-- .wrapper --> 
   </div>
   <!-- .vc_latest-portfolio -->
+
+
+  <div class="vc_blog-contact block">
+    <div class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div id="vc_blog-list-widget" class="widget col-md-6">
+<div class="vc_blog-list">
+              <h2> เทคนิคการแต่งหน้า <span class="vc_main-color"> สวยๆ </span> </h2>
+              <div class="vc_splitter"> <span class="bg"> </span> </div>
+              <article class="blog-row clearfix">
+                <div class="blog-left">
+                  <div class="vc_anim vc_anim-slide"> <a href="portfolio-single-project.php" class="vc_preview"> <img alt="example image" src="<?php echo site_assets_url('img/blog/02.jpg');?>"  /> </a>
+                    <div class="vc_hover">
+                      <div class="hover-wrapper">
+                        <div class="icon-wrapper">
+                          <ul>
+                            <li class="vc_icon"> <a  href="blog-single.php" > <i class="icon-link"> </i> </a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-right clearfix">
+                  <h3> <a href="blog-single.php"> Starting a new business </a> </h3>
+                  <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
+                  <div class="description">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... </p>
+                  </div>
+                </div>
+              </article>
+              <article class="blog-row clearfix">
+                <div class="blog-left">
+                  <div class="vc_anim vc_anim-slide"> <a href="blog-single.php" class="vc_preview"> <img alt="example image" src="<?php echo site_assets_url('img/blog/02.jpg');?>"  /> </a>
+                    <div class="vc_hover">
+                      <div class="hover-wrapper">
+                        <div class="icon-wrapper">
+                          <ul>
+                            <li class="vc_icon"> <a  href="blog-single.php" > <i class="icon-link"> </i> </a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-right clearfix">
+                  <h3> <a href="#"> Building Up Your Portfolio </a> </h3>
+                  <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
+                  <div class="description">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco... </p>
+                  </div>
+                </div>
+              </article>
+              <article class="blog-row">
+                <div class="blog-left">
+                  <div class="vc_anim vc_anim-slide"> <a href="blog-single.php" class="vc_preview"> <img alt="example image" src="<?php echo site_assets_url('img/blog/02.jpg');?>"  /> </a>
+                    <div class="vc_hover">
+                      <div class="hover-wrapper">
+                        <div class="icon-wrapper">
+                          <ul>
+                            <li class="vc_icon"> <a  href="blog-single.php" > <i class="icon-link"> </i> </a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-right clearfix">
+                  <h3> <a href="blog-single.php"> Creativity in Positivity </a> </h3>
+                  <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
+                  <div class="description">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... </p>
+                  </div>
+                </div>
+              </article>
+              <div class="clearfix"> </div>
+            </div>
+            <!-- .vc_blog-list --> 
+          </div>
+          <!-- #vc_blog-list-widget .col-md-8 -->
+          <div id="vc_blog-list-widget" class="widget col-md-6">
+            <div class="vc_blog-list">
+              <h2> แบบทรงผม <span class="vc_main-color"> อินเทรนด์ </span> </h2>
+              <div class="vc_splitter"> <span class="bg"> </span> </div>
+              <article class="blog-row clearfix">
+                <div class="blog-left">
+                  <div class="vc_anim vc_anim-slide"> <a href="portfolio-single-project.php" class="vc_preview"> <img alt="example image" src="<?php echo site_assets_url('img/blog/02.jpg');?>"  /> </a>
+                    <div class="vc_hover">
+                      <div class="hover-wrapper">
+                        <div class="icon-wrapper">
+                          <ul>
+                            <li class="vc_icon"> <a  href="blog-single.php" > <i class="icon-link"> </i> </a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-right clearfix">
+                  <h3> <a href="blog-single.php"> Starting a new business </a> </h3>
+                  <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
+                  <div class="description">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... </p>
+                  </div>
+                </div>
+              </article>
+              <article class="blog-row clearfix">
+                <div class="blog-left">
+                  <div class="vc_anim vc_anim-slide"> <a href="blog-single.php" class="vc_preview"> <img alt="example image" src="<?php echo site_assets_url('img/blog/02.jpg');?>"  /> </a>
+                    <div class="vc_hover">
+                      <div class="hover-wrapper">
+                        <div class="icon-wrapper">
+                          <ul>
+                            <li class="vc_icon"> <a  href="blog-single.php" > <i class="icon-link"> </i> </a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-right clearfix">
+                  <h3> <a href="#"> Building Up Your Portfolio </a> </h3>
+                  <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
+                  <div class="description">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco... </p>
+                  </div>
+                </div>
+              </article>
+              <article class="blog-row">
+                <div class="blog-left">
+                  <div class="vc_anim vc_anim-slide"> <a href="blog-single.php" class="vc_preview"> <img alt="example image" src="<?php echo site_assets_url('img/blog/03.jpg');?>"  /> </a>
+                    <div class="vc_hover">
+                      <div class="hover-wrapper">
+                        <div class="icon-wrapper">
+                          <ul>
+                            <li class="vc_icon"> <a  href="blog-single.php" > <i class="icon-link"> </i> </a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-right clearfix">
+                  <h3> <a href="blog-single.php"> Creativity in Positivity </a> </h3>
+                  <span class="date"> 14 February 2013 </span> <span class="comments"> <i class="icon-comments"> </i> 16 </span> <span class="taxonomy"> <i class="icon-tags"> </i> <a href="#"> Design </a>, <a href="#"> Creative </a> </span>
+                  <div class="description">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidtation ullamco laboris nisi ut aliquip ex... </p>
+                  </div>
+                </div>
+              </article>
+              <div class="clearfix"> </div>
+            </div>
+            <!-- .vc_blog-list --> 
+          </div>
+          <!--  #vc_blog-list-widget .col-md-4 --> 
+        </div>
+        <!-- .row -->
+        <div class="clearfix"> </div>
+        <div class="vc_line-splitter"> <span class="bg"> </span> </div>
+      </div>
+      <!-- .container --> 
+    </div>
+    <!-- .wrapper --> 
+  </div>
+  <!-- .vc_blog-contact -->
 
