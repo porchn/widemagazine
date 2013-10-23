@@ -490,15 +490,9 @@
                   <div class="vc_metro-slider">
                     <ul>
                       <li class="odd">
-                        <ul>
-                          <li class="box type-1 anim-hover"> <a href="#"> <img alt="example image" src="<?php echo site_assets_url('img/metro-img/portfolio_01.png');?>">
-                            <div class="mouse-over">
                               <div class="content">
-                                <img alt="example image" src="<?php echo site_assets_url('img/metro-img/portfolio_hover_01.png');?>">
+                                test
                               </div>
-                            </div>
-                            </a> </li>
-                        </ul>
                       </li>
                       <li class="even">
                         <ul>
@@ -512,7 +506,8 @@
                                 </div>
                               </div>
                             </div>
-                            </a> </li>
+                            </a> 
+                          </li>
                           <li class="box type-3 anim-rotate"> <a href="#"> <img alt="example image" src="<?php echo site_assets_url('img/metro-img/portfolio_03.png');?>">
                             <div class="mouse-over bg-none">
                               <div class="content"> <img alt="example image" src="<?php echo site_assets_url('img/metro-img/portfolio_hover_03.png');?>"> </div>

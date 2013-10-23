@@ -15,10 +15,14 @@ div.vc_latest-portfolio > div >div > h4 >.vc_inverted{
 .vc_menu .vc_primary-menu > ul > li > a > i,.vc_contact-top i, .vc_address i{
 
 }
+
 button, .vc_btn, .vc_bg-color, .vc_inverted, .vc_read-more, .navbar-inverse .btn-navbar, .vc_testimonial .testimonial-box,.input-append .add-on, .input-prepend .add-on, #vc_login-widget h3,.vc_single-portfolio .vc_carousel-control a, .vc_anim .vc_hover a:hover, .tp-bannertimer, .vc_menu-search-wrapper, .vc_login-widget h3, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus, .vc_social-share.vc_one-main-color a:hover, .header-1 .logo a, .header-2 .logo a, header .vc_btn-navbar .btn{
 	
 }
 
+div.vc_metro-slider > ul > li.odd > div.content{
+	background: #5bc0de;
+}
 
 .vc_menu .vc_primary-menu > ul > li div.vc_mega-menu,.vc_menu .vc_primary-menu > ul > li div.vc_menu-2-v, .vc_menu .vc_primary-menu > ul > li div.vc_menu-2-h{
 	background: #ffffff;

@@ -52,13 +52,15 @@ function metro_slider(){
  
 	var padding=70;
 	var scrollwidth=$('.container').width()-padding;
-			
+	
+	/*		
 	$('.vc_metro-wrapper').tinyscrollbar({
 		axis: 'x',
 		size: scrollwidth,
 		sizethumb: 'auto',
 		invertscroll: true
 	});
+	*/
 }
 
 function startLoop(){

@@ -1760,11 +1760,8 @@ footer .widget{
 	height: 100%;
 	display: block;
 }
-.vc_metro-slider ul li.old ul li a > img{
+div.vc_metro-slider > ul > li.odd > div.content{
 	height:395px;
-	background: #f00;
-}
-.vc_metro-slider ul li a:hover > img{
 }
 
 .vc_metro-slider ul li .mouse-over {
