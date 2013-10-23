@@ -16,6 +16,7 @@ var run=false;
 //disable slide banner 
 $(window).load(function(){	  
 	metro_slider();
+	/*
 	if (!run) {
 		if (($('.vc_metro-wrapper:hover').length != 0) & (pauseOnHover)) {
     		stopLoop();
@@ -24,13 +25,13 @@ $(window).load(function(){
 		}
 		 run=true;  
 	}
+	*/
 	target.hover(function() { 
 			if (pauseOnHover & run) { stopLoop();}
 		},function() {  	
 			if (pauseOnHover & run) { startLoop();}
 	});		
 });
-
 
 $(window).resize(function(){
 	metro_slider(); /*Do Metro Slider */

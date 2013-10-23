@@ -82,9 +82,6 @@
             <!-- vc_banner -->
 
             <div class="widget-container">
-              <h4>สภาพอากาศแบบนี้ widemagazin ขอแนะนำว่า</h4>
-                <p>Ut sit amet dignissim libero. Integer scelerisque, eros interdum suscipit rhoncus, mauris felis eleifend libero, a adipiscing arcu sapien eu nisi. Proin vehicula lacus non lacus lobortis ultricies. Nulla dui metus, viverra in sodales a, rutrum sed metus. Cras blandit vehicula ligula et fringilla. Suspendisse convallis rutrum arcu nec rutrum. Pellentesque sed felis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-                <div class="vc_splitter"></div>
                 <div class="row text-center">
                   <div class="col-md-4">
                     <div class="vc_icon-round vc_center"  >
@@ -119,7 +116,6 @@
                     <p> <em>Vencorp Theme adapt in all type of device: handheld, smartphone, tablets, laptops</em> </p>
                   </div>
                 </div><!-- row -->
-                <div class="vc_separator"></div>
             </div>
 
           </div>
@@ -310,7 +306,7 @@
   <!-- .vc_latest-portfolio -->
 
 
-  <div class="vc_blog-contact block">
+  <div class="vc_welcome block">
     <div class="wrapper">
       <div class="container">
         <div class="row">
@@ -479,6 +475,7 @@
     <div class="wrapper">
       <div class="container">
   <!-- Middle Content Start -->
+  <h3>สุขภาพ<span class="vc_main-color">ผู้หญิง</span> </h3>
   <div class="vc_banner vc_light-theme block">
     <div class="wrapper">
       <div class="row">
@@ -490,9 +487,24 @@
                   <div class="vc_metro-slider">
                     <ul>
                       <li class="odd">
-                              <div class="content">
-                                test
+                        <div class="content">
+                          <div class="blog-row clearfix">
+                          <ul>
+                            <li><canvas class="skycons-element" data-skycons="PARTLY_CLOUDY_DAY" height="200" id="PARTLY_CLOUDY_DAY" width="200"></canvas></li>
+                            <li>Today<br>
+                              <div class="number">
+                                <h1>72°</h1>
                               </div>
+                            </li>
+                          </ul>
+                          </div>
+
+                          <div class="blog-row clearfix">
+                          <h5>สภาพอากาศวันนี้</h5>
+                          <span>widemagazine ขอแนะนำว่าถ้าสาวๆจะออกข้างให้ให้พกร่มไปด้วยนะคะ เพราะว่าอากาศร้อน แสงแดดทำให้ผิวสวยๆหยาบกร้านได้คะ</span>
+                          </div>
+
+                        </div>
                       </li>
                       <li class="even">
                         <ul>
@@ -513,7 +525,7 @@
                               <div class="content"> <img alt="example image" src="<?php echo site_assets_url('img/metro-img/portfolio_hover_03.png');?>"> </div>
                             </div>
                             </a> </li>
-                          <li class="box type-3 anim-hover"> <a href="#"> <img alt="example image" src="<?php echo site_assets_url('img/metro-img/portfolio_14.png');?>">
+                          <li class="box type-3 anim-slide-right"> <a href="#"> <img alt="example image" src="<?php echo site_assets_url('img/metro-img/portfolio_14.png');?>">
                             <div class="mouse-over bg-none">
                               <div class="content">   <img alt="example image" src="<?php echo site_assets_url('img/metro-img/portfolio_hover_14.png');?>"> </div>
                             </div>

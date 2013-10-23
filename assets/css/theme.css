@@ -1762,6 +1762,19 @@ footer .widget{
 }
 div.vc_metro-slider > ul > li.odd > div.content{
 	height:395px;
+	padding:10px;
+}
+
+div.vc_metro-slider > ul > li.odd > div.content > ul > li > canvas.skycons-element{
+
+}
+div.vc_metro-slider > ul > li.odd > div.content > div > ul > li, div.vc_metro-slider > ul > li.odd > div.content > div > ul > li > div.number > h1{
+	width:115px;
+	color: #fff;
+	text-align: center;
+}
+div.vc_metro-slider > ul > li.odd > div.content > div > ul > li:first-child{
+	width:200px;
 }
 
 .vc_metro-slider ul li .mouse-over {
