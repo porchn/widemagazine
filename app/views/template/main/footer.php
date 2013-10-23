@@ -42,10 +42,10 @@
 				</div>
             </div>
             <div id="vc_footer-gallery" class="footer-widget widget col-md-3">
-				<?php //include('templates/widgets/widget-flickr.tpl.php'); ?>
+              
             </div>
             <div id="vc_footer-twitter" class="footer-widget widget col-md-3">
-				<?php //include('templates/widgets/widget-twitter-mini.tpl.php'); ?>            
+              <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fwidemagazine&amp;width=300&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false&amp;appId=228892970598232" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:The pixel width of the pluginpx; height:290px;" allowTransparency="true"></iframe>
             </div>
             <div id="vc_footer-newsletter-form-widget" class="footer-widget widget col-md-3">
 				<?php //include('templates/widgets/widget-newsletter.tpl.php'); ?>

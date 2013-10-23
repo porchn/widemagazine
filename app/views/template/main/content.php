@@ -146,7 +146,7 @@
                   </form>
               </div>
             </div>
-            <div class="vc_login-widget">
+            <div class="vc_banner-300">
               banner
             </div>
           </div>

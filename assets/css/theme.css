@@ -1974,6 +1974,16 @@ footer .widget h3{
 	margin-top:-10px;
 }
 
+.vc_banner-300{
+	background:#F5F5F5;
+	padding:20px 15px 15px;
+	margin-top: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border:1px solid #EEE;
+}
+
+
 /* Revolution Slider Overwrite*/
 .tp-bannershadow.tp-shadow1 {	bottom:-80px;}
 .tp-bannershadow.tp-shadow2 {	bottom:-80px;}
