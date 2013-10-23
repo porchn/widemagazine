@@ -253,9 +253,9 @@ $(window).load(function()
 			items:{
 				visible:{
 					min: 1,
-					max: 3
+					max: 4
 				},
-				width: 480,
+				width: 270,
 				height: 'auto'
 			}
 		});

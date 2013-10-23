@@ -4,16 +4,16 @@
    
 /* Metro Slider Variable Setting */
 var iFrequency = 5000; // slide movement period expressed in miliseconds
-var movement = 2; // how many movement/transition
+var movement = 3; // how many movement/transition
 var pauseOnHover = 1; // 1 = Pause on Hover, 0 = Not Pause on Hover   
 
 
-var iDo=0;
+var iDo=1;
 var myInterval;
 var target =  $(".vc_metro-wrapper");
 var run=false;
 
-/*//disable slide banner 
+//disable slide banner 
 $(window).load(function(){	  
 	metro_slider();
 	if (!run) {
@@ -30,7 +30,7 @@ $(window).load(function(){
 			if (pauseOnHover & run) { startLoop();}
 	});		
 });
-*/
+
 
 $(window).resize(function(){
 	metro_slider(); /*Do Metro Slider */

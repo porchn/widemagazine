@@ -1409,8 +1409,11 @@ footer .widget{
 
 /* Latest Portfolio Widget */
 .vc_latest-portfolio .wrapper{
-	padding-bottom: 40px;
+	padding: 20px 0;
 	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	background: #191c1e;
+
 }
 .vc_portfolio-widget .vc_carousel-control a{
 	font-size:14px;
@@ -1723,7 +1726,7 @@ footer .widget{
 	margin: 0;
 }
 .vc_metro-slider ul li.odd{
-	width: 405px;
+	width: 345px;
 }
 .vc_metro-slider ul li.even{
 	width: 820px;
@@ -1741,7 +1744,7 @@ footer .widget{
 	transition: all 0.3s ease 0s;
 }
 .vc_metro-slider ul li.type-1{
-	width: 405px;
+	width: 345px;
 	height: 395px;
 }
 .vc_metro-slider ul li.type-2{
@@ -1757,8 +1760,11 @@ footer .widget{
 	height: 100%;
 	display: block;
 }
+.vc_metro-slider ul li.old ul li a > img{
+	height:395px;
+	background: #f00;
+}
 .vc_metro-slider ul li a:hover > img{
-
 }
 
 .vc_metro-slider ul li .mouse-over {
@@ -2175,7 +2181,7 @@ header .vc_primary-menu-wrapper{
 .vc_menu .vc_primary-menu > ul > li ul li a {
 	min-width: 135px;
 	max-width: 135px;
-	color: #FFFFFF;
+	color: #333333;
 	padding: 6px 0 7px;
 	display: block;
 	text-transform: capitalize;

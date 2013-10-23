@@ -109,7 +109,7 @@ $template['main']['css'] = array(
 	array(site_assets_url('css/header/header-5.css'), 'css_core' ),
 	array(site_assets_url('css/mode/mode-1-header.css'), 'css_core' ),
 	array(site_assets_url('css/mode/mode-1-footer.css'), 'css_core' ),
-	array(site_assets_url('css/color/color-blue.css'), 'css_core' ),
+	array(site_assets_url('css/color/color-pink.css'), 'css_core' ),
 	array(site_assets_url('css/theme-responsive.css'), 'css_core' ),
 	array(site_assets_url('css/header/header-5-responsive.css'), 'css_core' ),
 	array(site_assets_url('css/mode/mode-1-header-responsive.css'), 'css_core' ),
