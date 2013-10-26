@@ -21,6 +21,19 @@ if ( !function_exists('site_assets_url') )
 	}
 }
 
+if ( !function_exists('site_farms_url') ) 
+{
+	function site_farms_url($url = '') 
+	{
+		$CI =& get_instance();
+		if (is_array($url)) 
+		{
+			$url = implode('/', $url);
+		}
+		return ($url == '') ? $CI->config->slash_item('upload_url') : $CI->config->slash_item('upload_url').trim($url, '/');	
+	}
+}
+
 if ( !function_exists('site_url') ) 
 {
 	function site_url($url = '') 

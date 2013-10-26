@@ -1,13 +1,31 @@
 <ul>
     <li id="home"> <a href="index.php"> Home </a>
-      <div class="vc_menu-open-right vc_menu-2-v">
-        <ul class="clearfix">
-          <li> <a href="index.php"> Metro Slider Sketch </a> </li>
-          <li> <a href="index-portfolio.php"> Metro Slider Portfolio </a> </li>
-          <li> <a href="index-revolution.php"> Revolution Slider </a> </li>
-          <li> <a href="index-home-alt-1.php"> Home Alt 1 </a> </li>
-        </ul>
-      </div>
+      <div class="vc_menu-open-right vc_mega-menu medium-width">
+        <div class="child-menu">                   
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Responsive Mega Menu integrated with bootstrap column class("span"). From small, medium, large, to full width options available.</p>
+                </div>                   
+            </div>                                            
+            <div class="row">
+              <div class="col-md-3 text-center vc_column">
+                <span class="large"> 
+                  <i class="icon-fullscreen"></i>
+                  Responsive                            </span>                          </div>
+              <div class="col-md-3 text-center vc_column">
+                <span class="large"> 
+                  <i class="icon-thumbs-up"></i>
+                  Easy Use                            </span>                          </div>                          
+              <div class="col-md-3 text-center vc_column">
+                <span class="large">  
+                  <i class="icon-resize-horizontal"></i>
+                  Custom Width                            </span>                          </div>
+              <div class="col-md-3 text-center vc_column">
+                <span class="large"> 
+                  <i class="icon-mail-forward"></i>
+                  Examples                            </span>                          </div>                                                    
+            </div>
+        </div> <!-- child-menu -->                      
     </li>
     <li id="mega-menu"> <a href="#"> แฟชั่น &amp;ความงาม </a> 
       <div class="vc_menu-open-right vc_mega-menu medium-width">
@@ -44,7 +62,7 @@
         </div> <!-- child-menu -->                      
       </div>   <!-- vc_mega-menu -->                 
     </li>                
-    <li id="features"> <a href="features-mega-menu.php"> Features </a>
+    <li id="features"> <a href="features-mega-menu.php">อาหาร &amp;สุขภาพ</a>
       <div class="vc_menu-open-right vc_menu-2-v">
         <ul class="clearfix">
           <li class="dropdown"> <a href="features-mega-menu.php">Head Foot<span class="vc_bg-orange vc_small-info">NEW</span> <i class="icon-caret-right"></i></a> 
@@ -83,7 +101,7 @@
         </ul>
       </div>
     </li>
-    <li id="portfolios"> <a href="portfolio-2-columns.php"> Portfolio </a>
+    <li id="portfolios"> <a href="portfolio-2-columns.php">แม่ &amp;เด็ก</a>
       <div class="vc_menu-open-right vc_menu-2-h">
         <ul class="clearfix">
           <li> <a href="portfolio-2-columns.php"> 2 Columns </a> </li>
@@ -96,7 +114,7 @@
         </ul>
       </div>
     </li>
-    <li id="pages"> <a href="pages-team-members.php"> Pages </a>
+    <li id="pages"> <a href="pages-team-members.php">ความรัก &amp;แต่งงาน</a>
       <div class="vc_menu-open-left vc_menu-2-v">
         <ul class="clearfix">
           <li> <a href="pages-team-members.php"> Team Members </a> </li>
@@ -118,7 +136,7 @@
         </ul>
       </div>
     </li>
-    <li id="blog"> <a href="blog-list-mini.php"> Blogs </a>
+    <li id="blog"> <a href="blog-list-mini.php">อัพเดทเทรนด์</a>
       <div class="vc_menu-open-left vc_menu-2-v">
         <ul class="clearfix">
           <li> <a href="blog-list-mini.php"> Mini Image </a> </li>
@@ -128,6 +146,6 @@
         </ul>
       </div>
     </li>
-    <li id="contact"> <a href="contact.php"> Contact Us </a> </li>
+    <li id="contact"> <a href="contact.php">รีวิวเครื่องสำอาง</a> </li>
 </ul>
 <!-- Head menu search form ends --> 

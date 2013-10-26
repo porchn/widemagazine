@@ -58,7 +58,7 @@
                   <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".vc_primary-menu"> <span class="icon-bar"> </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> </button>
                 </div>
                 <div class="vc_primary-menu">
-					<?php echo $main_menu; ?>
+                  <?php echo $main_menu; ?>
                 </div>
               </nav>                  
           </div>
