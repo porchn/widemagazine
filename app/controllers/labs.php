@@ -13,7 +13,7 @@ class Labs extends MY_Controller {
 	{
 		//var_dump(site_farms_url('img-original/clouds.jpg'));
 		//die();
-		echo "<a href='#'>".imageResize('farms/img-original/street.jpg',300,300,'รูปภาพสินค้า')."</a>";
+		echo "<a href='#'>".imageResize('farms/img-original/street.jpg',100,100,'รูปภาพสินค้า')."</a>";
 
 	}
 

@@ -146,5 +146,48 @@ $template['main']['meta_keywords'] = '';
 $template['main']['body_id'] = '';
 $template['main']['title'] = '';
 
+
+/*
+|--------------------------------------------------------------------------
+| Admin Template Configuration (adjust this or create your own)
+|--------------------------------------------------------------------------
+*/
+$template['admin']['template'] = $template['template_dir'].'/admin_root/index';
+$template['admin']['template_core'] = 'index';
+$template['admin']['regions'] = array(
+	'top',
+    'content',
+    'sidebar'
+);
+$template['admin']['regions_map'] = 'admin';
+$template['admin']['parser'] = 'parser';
+$template['admin']['parser_method'] = 'parse';
+$template['admin']['parser_template'] = FALSE;
+$template['admin']['css'] = array(
+		array(site_vendor_url('template_admin/css/layout.css'),'css_core')
+
+	);
+$template['admin']['js'] = array(
+		array(site_vendor_url('jquery/jquery-1.7.2.min.js'), 'js_view'),
+		array(site_vendor_url('template_admin/js/hideshow.js'), 'js_view'),
+		array(site_vendor_url('template_admin/js/hideshow.js'), 'js_view'),
+		array(site_vendor_url('template_admin/js/jquery.tablesorter.min.js'), 'js_view'),
+		array(site_vendor_url('template_admin/js/jquery.equalHeight.js'), 'js_view'),
+
+		array(site_vendor_url('ckeditor/ckeditor.js'), 'js_view'),
+		array(site_vendor_url('ckfinder/ckfinder.js'), 'js_view'),
+		array(site_assets_url('js/core.js'), 'js_core')
+);
+$template['admin']['doctype'] = 'html5';
+$template['admin']['use_favicon'] = FALSE;
+$template['admin']['favicon_location'] = '';
+$template['admin']['meta_content'] = 'UTF-8';
+$template['admin']['meta_language'] = 'en-US';
+$template['admin']['meta_author'] = '';
+$template['admin']['meta_description'] = '';
+$template['admin']['meta_keywords'] = '';
+$template['admin']['body_id'] = '';
+$template['admin']['title'] = '';
+
 /* End of file template.php */
 /* Location: ./system/application/config/template.php */
