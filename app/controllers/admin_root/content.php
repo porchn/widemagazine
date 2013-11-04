@@ -6,6 +6,9 @@ class Content extends MY_Controller {
 	{
 		parent::__construct();
 		$this->load->helper('makefolder');
+		$this->load->model('content_model','m_content');
+		$this->load->model('categorie_model','m_cate');
+		$this->load->model('subcate_model','m_subcate');
 	}
 	
 	public function index()
@@ -16,43 +19,43 @@ class Content extends MY_Controller {
 
 
 		$data['imagePath']="Images:/".makeFolder('thumbnail/'.date('z').'/'.date('m')).'/';
+		$content_path="Images:/".makeFolder('content/'.date('z').'/'.date('m')).'/';
+
+		$mcate_list=$this->m_cate->getCate();
+		$mcate="";
+		foreach ($mcate_list as $value){
+			$mcate.="<option value='".$value['mmenu_id']."'>".$value['mmenu_name']."</option>";
+		}
+		$data['mcate']=$mcate;
+
+		$subcate_list=$this->m_subcate->getSubcate();
+		$scate="";
+		foreach ($subcate_list as $svalue) {
+			$scate.="<option value='".$svalue['smenu_id']."'>".$svalue['smenu_name']."</option>";
+		}
+		$data['scate']=$scate;
+
+		
 
 		$this->template->write_view('content','layout/admin_root/content_form',$data,false);
+		$this->template->add_js(site_assets_url('js/content_js.js'),'js_view');
+		$this->template->add_js("
 
-		$this->template->add_js(
-			"
-			function BrowseServer( startupPath, functionData )
-			{
-				// You can use the 'CKFinder' class to render CKFinder in a page:
-				//var startupPath='Images:/'+upPath;
-				var finder = new CKFinder();
+			CKEDITOR.replace( 'content_detail',
+				{
+					skin	: 'moono',
+					height	: 250,
+					filebrowserBrowseUrl : '/assets/vendor/ckfinder/ckfinder.html',
+					filebrowserImageBrowseUrl : '/assets/vendor/ckfinder/ckfinder.html?Type=Images&start=$content_path',
+					filebrowserFlashBrowseUrl : '/assets/vendor/ckfinder/ckfinder.html?Type=Flash',
+					filebrowserUploadUrl : '/assets/vendor/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+					filebrowserImageUploadUrl : '/assets/vendor/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+					filebrowserFlashUploadUrl : '/assets/vendor/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
 
-				// The path for the installation of CKFinder (default = '/ckfinder/'').
-				finder.basePath = config.vendor_url+'ckfinder/';
-
-				//Startup path in a form: 'Type:/path/to/directory/'
-				finder.startupPath = startupPath;
-
-				// Name of a function which is called when a file is selected in CKFinder.
-				finder.selectActionFunction = SetFileField;
-
-				// Additional data to be passed to the selectActionFunction in a second argument.
-				// We'll use this feature to pass the Id of a field that will be updated.
-				finder.selectActionData = functionData;
-
-				// Name of a function which is called when a thumbnail is selected in CKFinder.
-				//finder.selectThumbnailActionFunction = ShowThumbnails;
-
-				// Launch CKFinder
-				finder.popup();
-			}
-
-			// This is a sample function which is called when a file is selected in CKFinder.
-			function SetFileField( fileUrl, data )
-			{
-				document.getElementById( data['selectActionData'] ).value = fileUrl;
-			}",'js_view','embed'
+				}
 			);
+
+		",'js_view','embed');
 
 		$this->template->render();
 

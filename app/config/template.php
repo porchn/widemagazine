@@ -175,6 +175,7 @@ $template['admin']['js'] = array(
 		array(site_vendor_url('template_admin/js/jquery.equalHeight.js'), 'js_view'),
 
 		array(site_vendor_url('ckeditor/ckeditor.js'), 'js_view'),
+		array(site_vendor_url('/ckeditor/adapters/jquery.js'), 'js_view'),
 		array(site_vendor_url('ckfinder/ckfinder.js'), 'js_view'),
 		array(site_assets_url('js/core.js'), 'js_core')
 );
