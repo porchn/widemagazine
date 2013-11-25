@@ -2,6 +2,9 @@
 
 if (!function_exists('makeFolder')) 
 {
+	/*
+	|image path start on image-original/images/
+	*/
 	function makeFolder($url='',$permission=0775)
 	{
     	$CI =&get_instance();

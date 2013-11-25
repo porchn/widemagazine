@@ -1261,7 +1261,7 @@ footer .widget{
 	color: #222222;
 }
 .vc_blog-list .description{
-	margin-top: 10px; float:left; width:100%;
+	margin-top: 0px; float:left; width:100%;
 }
 .vc_blog-list .taxonomy{
 	margin-top: 20px;
@@ -1282,6 +1282,9 @@ footer .widget{
 	-moz-transition: color ease 0.3s;
 	-ms-transition: color ease 0.3s;
 	-o-transition: color ease 0.3s;
+}
+.vc_blog-list .blog-row .blog-right span.date{
+	width:100%;
 }
 .vc_blog-list .vc_row{
 	float:left;
@@ -1314,10 +1317,10 @@ footer .widget{
 	margin-bottom: 10px;
 }
 .widget .vc_blog-list .blog-row .blog-right {
-	margin-left: 261px;
+	margin-left: 161px;
 }
 .widget .vc_blog-list .blog-row .blog-left{
-	width: 240px;
+	width: 150px;
 }
 .sidebar-widget .vc_blog-list .blog-row{
 	margin-bottom: 10px;
@@ -2500,8 +2503,8 @@ footer h4{
 
 /* Welcome Block */
 .vc_welcome .description{
-	padding-top: 20px;
-	margin-left: 20px;
+	padding-top: 0px;
+	margin-left: 0px;
 }
 .vc_welcome .vc_button{
 	height: 192px;
@@ -2522,11 +2525,20 @@ footer h4{
 	letter-spacing: -1px;
 	margin: 15px 0 10px;
 }
+.vc_welcome .description p{
+	margin-bottom: 0;
+}
 .vc_welcome .description .text{
 	font-size: 18px;
 	line-height: 32px;
 	letter-spacing: -.2px;
 }
+.vc_welcome .vc_anim-slide a img{
+	border: #f2f2f2 1px solid;
+	padding:5px;
+	background: #fff;
+}
+
 
 
 /* Features Block */

@@ -31,8 +31,8 @@ class Content extends MY_Controller {
 
 
 
-		$data['imagePath']="Images:/".makeFolder('thumbnail/'.date('z').'/'.date('m')).'/';
-		$content_path="Images:/".makeFolder('content/'.date('z').'/'.date('m')).'/';
+		$data['imagePath']="Images:/".makeFolder('thumbnail/'.date('Y').'/'.date('m').'/'.date('N')).'/';
+		$content_path="Images:/".makeFolder('content/'.date('Y').'/'.date('m').'/'.date('N')).'/';
 
 		$mcate_list=$this->m_cate->getCate();
 		$mcate="";

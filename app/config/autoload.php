@@ -62,7 +62,7 @@ $autoload['libraries'] = array('template','kint');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url','common');
+$autoload['helper'] = array('url','common','imageresize');
 
 /*
 | -------------------------------------------------------------------
