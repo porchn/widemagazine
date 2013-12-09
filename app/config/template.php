@@ -93,7 +93,7 @@ $template['main']['regions'] = array(
     'content',
     'footer'
 );
-$template['main']['regions_map'] = '';
+$template['main']['regions_map'] = 'main';
 $template['main']['parser'] = 'parser';
 $template['main']['parser_method'] = 'parse';
 $template['main']['parser_template'] = FALSE;
@@ -165,7 +165,6 @@ $template['admin']['parser_method'] = 'parse';
 $template['admin']['parser_template'] = FALSE;
 $template['admin']['css'] = array(
 		array(site_vendor_url('template_admin/css/layout.css'),'css_core')
-
 	);
 $template['admin']['js'] = array(
 		array(site_vendor_url('jquery/jquery-1.7.2.min.js'), 'js_view'),

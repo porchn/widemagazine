@@ -61,7 +61,17 @@
             </div>                                            
         </div> <!-- child-menu -->                      
       </div>   <!-- vc_mega-menu -->                 
-    </li>                
+    </li>
+    <li id="pages"> <a href="pages-team-members.php">เทรนด์ทรงผม</a>
+      <div class="vc_menu-open-right vc_menu-2-v">
+        <ul class="clearfix">
+          <li> <a href="pages-team-members.php"> ทรงผมสั้น </a> </li>
+          <li> <a href="about.php"> ทรงผมยาว </a> </li>                      
+          <li> <a href="pages-404-error.php"> ทรงผมบ๊อบ </a> </li>
+          <li> <a href="pages-services.php"> ทรงผมประบ่า </a> </li>
+        </ul>
+      </div>
+    </li>
     <li id="features"> <a href="features-mega-menu.php">อาหาร &amp;สุขภาพ</a>
       <div class="vc_menu-open-right vc_menu-2-v">
         <ul class="clearfix">

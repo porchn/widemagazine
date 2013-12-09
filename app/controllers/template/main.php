@@ -6,4 +6,11 @@ class Main extends MY_Controller
 	{
 		parent::__construct();
 	}
+
+	public function footer()
+	{
+
+		$data=array();
+		$this->template->write_view('footer','template/main/footer',$data, true);
+	}
 }

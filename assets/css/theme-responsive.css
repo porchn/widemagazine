@@ -181,7 +181,8 @@
 	}
 	header .vc_menu .vc_primary-menu > ul{
 		border-top: 1px solid #f00;
-		background: rgba(4,4,4,.90);			
+		/*background: rgba(4,4,4,.90);*/
+		background:#fff;
 		width: 100%;
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -364,6 +365,7 @@
 	.vc_welcome .description{
 		margin: 0;
 		width: 100%;
+		text-align: left;
 	}
 	.vc_welcome .vc_icon-round{
 		margin: 0 auto;
@@ -452,7 +454,20 @@
 	}
 	.thumbnails {
 		margin-left: 0;
-	}	
+	}
+	.vc_blog-list .blog-row{
+		height:150px;
+		border-bottom: 1px dashed #f0f0f0;
+	}
+
+	.widget .vc_blog-list article:first-of-type{
+		height:320px;
+	}
+	.widget .vc_blog-list article:last-of-type{
+		margin-bottom: 0px;
+		border-bottom: 0px;
+	}
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	body.boxed .vc_body	{
@@ -474,12 +489,28 @@
 	.vc_pricing-table .plan	{
 		margin-right:-21px;
 	}
+
+	.vc_blog-list .blog-row{
+		height:167px;
+		border-bottom: 1px dashed #f0f0f0;
+	}
+
+	.widget .vc_blog-list article:first-of-type{
+		height:320px;
+	}
+
 	.vc_menu .vc_primary-menu > ul > li .full-width{
 		width: 900px;
-	}	
+	}
+	.widget .vc_blog-list article:last-of-type{
+		margin-bottom: 0px;
+		border-bottom: 0px;
+	}
 }
 @media (min-width: 1200px) {
-	
+	.vc_blog-list .blog-row{
+		/*height:188px;*/
+	}
 }
 
 /*Body Boxed Special Requirement*/
@@ -503,6 +534,7 @@
 		float:left;
 		border-radius:0;
 	}
+
 	body.boxed .vc_bottom .vc_footer-line, body.boxed .vc_bottom .bg{
 		margin-left:-10px;
 		margin-right:-10px;

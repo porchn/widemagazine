@@ -120,7 +120,7 @@
 
           </div>
           <div class="col-sm-12 col-md-4 widget block">
-            <div class="vc_login-widget">
+            <div class="vc_login-widget vc_min-300">
               <h3 class="vc_widget-title">Login</h3>
               <div class="content">
                   <form class="form">
@@ -146,8 +146,8 @@
                   </form>
               </div>
             </div>
-            <div class="vc_banner-300">
-              banner
+            <div class="vc_banner-300 vc_min-300">
+              <img src="http://pub.innityserve.net/adnetwork/house/pub_2271/H2271_1334799323.jpg" alt="banner">
             </div>
           </div>
         </div>
@@ -179,18 +179,156 @@
     <div class="wrapper">
       <div class="container">
         <div class="row">
-          <div id="vc_blog-list-widget" class="widget col-md-4">
-            <?=$makeup_new?>
-            <!-- .vc_blog-list --> 
+          <div class="widget-h col-xs-12 col-sm-6 col-md-8 col-lg-8">
+
+            <div class="vc_blog-list">
+              <h3> เทคนิค <span class="vc_main-color"> การแต่งหน้า </span> </h3>
+              <div class="vc_splitter"> <span class="bg"> </span> </div>
+  
+              <div class="row">
+                <div class="col-xs-12">
+                      <article class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="blog-left">
+                          <div class="vc_anim vc_anim-slide">
+                            <a href="portfolio-single-project.php" class="vc_preview">
+                              <img style="width:142px;" src="http://widemagazine.local/farms/img-original/images/thumbnail/2013/11/2/100_100_widemagazine_2154.jpg">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="blog-right clearfix">
+                          <h6> <a href="blog-single.php"><?=$cont_name?></a> </h6>
+                          <div class="description">
+                            <p><?=subtext($cont_title,100)?> <a href="blog-single.php">อ่านต่อ</a></p>
+                            <span class="date">
+                              <i class="icon-eye-open"> </i> <?=$cont_views?> <i class="icon-calendar"> </i> <?=DateThai($cont_date)?> By:<a href="javascript:;"><?=$cont_authors?></a>
+                            </span>
+                          </div>
+
+                        </div>
+                      </article>
+                      <article class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="blog-left">
+                          <div class="vc_anim vc_anim-slide">
+                            <a href="portfolio-single-project.php" class="vc_preview">
+                              <img style="width:142px;" src="http://widemagazine.local/farms/img-original/images/thumbnail/2013/11/2/100_100_widemagazine_2154.jpg">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="blog-right clearfix">
+                          <h6> <a href="blog-single.php"><?=$cont_name?></a> </h6>
+                          <div class="description">
+                            <p><?=subtext($cont_title,100)?> <a href="blog-single.php">อ่านต่อ</a></p>
+                            <span class="date">
+                              <i class="icon-eye-open"> </i> <?=$cont_views?> <i class="icon-calendar"> </i> <?=DateThai($cont_date)?> By:<a href="javascript:;"><?=$cont_authors?></a>
+                            </span>
+                          </div>
+
+                        </div>
+                      </article>
+                      <article class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="blog-left">
+                          <div class="vc_anim vc_anim-slide">
+                            <a href="portfolio-single-project.php" class="vc_preview">
+                              <img style="width:142px;" src="http://widemagazine.local/farms/img-original/images/thumbnail/2013/11/2/100_100_widemagazine_2154.jpg">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="blog-right clearfix">
+                          <h6> <a href="blog-single.php"><?=$cont_name?></a> </h6>
+                          <div class="description">
+                            <p><?=subtext($cont_title,100)?> <a href="blog-single.php">อ่านต่อ</a></p>
+                            <span class="date">
+                              <i class="icon-eye-open"> </i> <?=$cont_views?> <i class="icon-calendar"> </i> <?=DateThai($cont_date)?> By:<a href="javascript:;"><?=$cont_authors?></a>
+                            </span>
+                          </div>
+
+                        </div>
+                      </article>
+                      <article class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="blog-left">
+                          <div class="vc_anim vc_anim-slide">
+                            <a href="portfolio-single-project.php" class="vc_preview">
+                              <img style="width:142px;" src="http://widemagazine.local/farms/img-original/images/thumbnail/2013/11/2/100_100_widemagazine_2154.jpg">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="blog-right clearfix">
+                          <h6> <a href="blog-single.php"><?=$cont_name?></a> </h6>
+                          <div class="description">
+                            <p><?=subtext($cont_title,100)?> <a href="blog-single.php">อ่านต่อ</a></p>
+                            <span class="date">
+                              <i class="icon-eye-open"> </i> <?=$cont_views?> <i class="icon-calendar"> </i> <?=DateThai($cont_date)?> By:<a href="javascript:;"><?=$cont_authors?></a>
+                            </span>
+                          </div>
+
+                        </div>
+                      </article>
+
+                <div class="clearfix"> </div>
+                </div>
+
+              </div>
+
+
+              <div class="row sub-blog-list">
+                <div class="vc_blog-list">
+                  <h6> +เทคนิคการแต่งหน้าที่ได้รับความนิยม(มวากๆ)+ </h6>
+                  <article class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="blog-left">
+                      <div class="vc_anim vc_anim-slide">
+                        <a href="portfolio-single-project.php" class="vc_preview">
+                          <?php 
+                          //echo imageResize($cont_pic,140,140,$cont_name,null);
+                          echo $image;
+                          ?>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="blog-right clearfix">
+                      <h6> <a href="blog-single.php"><?=$cont_name?></a> </h6>
+                      <div class="description">
+                        <p><?=subtext($cont_title,100)?> <a href="blog-single.php">อ่านต่อ</a></p>
+                        <span class="date">
+                          <i class="icon-eye-open"> </i> <?=$cont_views?> <i class="icon-calendar"> </i> <?=DateThai($cont_date)?> By:<a href="javascript:;"><?=$cont_authors?></a>
+                        </span>
+                      </div>
+
+                    </div>
+                  </article>
+                  <article class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="blog-left">
+                      <div class="vc_anim vc_anim-slide">
+                        <a href="portfolio-single-project.php" class="vc_preview">
+                          <?php 
+                          //echo imageResize($cont_pic,140,140,$cont_name,null);
+                          echo $image;
+                          ?>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="blog-right clearfix">
+                      <h6> <a href="blog-single.php"><?=$cont_name?></a> </h6>
+                      <div class="description">
+                        <p><?=subtext($cont_title,100)?> <a href="blog-single.php">อ่านต่อ</a></p>
+                        <span class="date">
+                          <i class="icon-eye-open"> </i> <?=$cont_views?> <i class="icon-calendar"> </i> <?=DateThai($cont_date)?> By:<a href="javascript:;"><?=$cont_authors?></a>
+                        </span>
+                      </div>
+
+                    </div>
+                  </article>
+
+              <div class="clearfix"> </div>
+            </div>
+
+
+              </div>
+            </div>
+            
           </div>
           <!-- #vc_blog-list-widget .col-md-8 -->
-          <div id="vc_blog-list-widget" class="widget col-md-4">
+          <div class="widget col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <?=$hair_new?>
-            <!-- .vc_blog-list --> 
-          </div>
-          <!--  #vc_blog-list-widget .col-md-4 --> 
-          <div id="vc_blog-list-widget" class="widget col-md-4">
-            <?=$fashion_new?>
             <!-- .vc_blog-list --> 
           </div>
           <!--  #vc_blog-list-widget .col-md-4 --> 

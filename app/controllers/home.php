@@ -1,5 +1,4 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
-
 class Home extends MY_Controller {
 	
 	public function __construct()
@@ -23,7 +22,6 @@ class Home extends MY_Controller {
 
 		$this->template->write_view('header','template/main/header',$data,true);
 		$this->template->write_view('content','template/main/content',$cdata,true);
-		$this->template->write_view('footer','template/main/footer',null,true);
 
 		$this->template->render();
 	}

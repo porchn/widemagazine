@@ -50,10 +50,9 @@
 ------------------------------*/
 
 body{
-	font-size: 13px;
+	font-size: 12px;
 	font-family: 'open_sansregular', 'arial';
 	color: #5C6161;
-	line-height: 23px;
 }
 h1,
 h2,
@@ -1022,6 +1021,7 @@ a.back-top.visible {
 	display: block;
 	float: left;
 }
+
 .vc_anim .vc_hover,.vc_anim .vc_category{
 	position: absolute;
 	z-index: 2;
@@ -1248,14 +1248,22 @@ footer .widget{
 }
 
 /* Blog List */
+.vc_blog-list{
+	border: 1px solid #e2e2e2;
+	padding:10px;
+	margin-bottom: 10px;
+}
 .vc_blog-list h3{
 	font-family: 'open_sansregular','arial';
 	font-size: 24px;
 	letter-spacing: -1.2px;
 	line-height: 26px;
-	margin: 0;
 	padding-top: 8px;
 	text-transform: capitalize;
+	padding:10px 0 10px 5px;
+	border-bottom: #ccc dashed 1px;
+	border-top:  #ccc dashed 1px;
+	background: #f2f2f2;
 }
 .vc_blog-list h3 a{
 	color: #222222;
@@ -1313,15 +1321,109 @@ footer .widget{
 .vc_blog-list .comments  > i, .vc_blog-list .comments  > .glyphicon{
 	color: #333;
 }
+
 .widget .vc_blog-list .blog-row{
 	margin-bottom: 10px;
 }
 .widget .vc_blog-list .blog-row .blog-right {
-	margin-left: 161px;
+	margin-left: 121px;
 }
 .widget .vc_blog-list .blog-row .blog-left{
-	width: 150px;
+	width: 110px;
 }
+
+.widget .vc_blog-list article:first-of-type{
+	border-bottom: #e2e2e2 dashed 1px;
+}
+.widget .vc_blog-list article:first-of-type div.blog-left{
+	width:100%;
+	margin-bottom: 5px;
+}
+.widget .vc_blog-list article:first-of-type div.blog-right{
+	width:100%;
+	margin-left: 0px;
+}
+.widget .vc_blog-list article{
+	padding:5px;
+	border-bottom: 1px dashed #fff;
+	border-top: 1px dashed #fff;
+}
+.widget .vc_blog-list article:hover{
+	background:#f2f2f2;
+	border-bottom: 1px dashed #e2e2e2;
+	border-top: 1px dashed #e2e2e2;
+}
+
+
+.widget .vc_blog-list article:not(:first-of-type) div.blog-left a img:hover{
+	width:110px !important;
+	height:110px !important;
+	padding:0;
+	background: #F00;
+}
+
+/*
+-------------------------------
+|	 Widget-h Class horizontal
+-------------------------------
+*/
+.widget-h:before,.widget-h:after{display:table;content:" "}.widget-h:after{clear:both}
+.widget-h div.vc_blog-list{
+	padding:0;
+	border-color: #e2e2e2;
+}
+.widget-h div.vc_blog-list div.row{
+	margin:0;
+	padding-bottom: 10px;
+}
+.widget-h div.vc_blog-list div.row div article{
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+.widget-h div.vc_blog-list h3{
+	border-top: 0;
+	border-bottom:#e2e2e2 solid 1px;
+}
+
+/*
+-------------------------------
+|	sub-blog-list
+-------------------------------
+*/
+.widget-h div.sub-blog-list{
+	margin-top: 10px;
+	padding-bottom:0 !important;
+}
+.widget-h div.sub-blog-list div.vc_blog-list{
+	border:0px;
+	background: #f2f2f2;
+	margin-bottom: 0px;
+}
+
+.widget-h div.sub-blog-list div.vc_blog-list>h6{
+	border:0px;
+	border-top: 1px #e2e2e2 1px;
+	padding: 10px 10px 5px 10px;
+	text-align: left;
+	font-weight: normal;
+}
+.widget-h div.sub-blog-list div.vc_blog-list article .blog-left{
+	position: relative;
+	float:left;
+	width:122px;
+}
+
+.widget-h div.sub-blog-list div.vc_blog-list article .blog-right{
+	margin-left: 124px;
+}
+
+/*
+-------------------------------
+|	END ssub-blog-list
+-------------------------------
+*/
+
+
 .sidebar-widget .vc_blog-list .blog-row{
 	margin-bottom: 10px;
 }
@@ -1411,6 +1513,9 @@ footer .widget{
 
 
 /* Latest Portfolio Widget */
+.vc_latest-portfolio .blog{
+	padding-bottom: 20px;
+}
 .vc_latest-portfolio .wrapper{
 	padding: 20px 0;
 	border-bottom: 1px solid #e5e5e5;
@@ -1503,6 +1608,7 @@ footer .widget{
 .vc_carousel > div {
 	padding: 0 10px;
 	float: left;
+	height:100%;
 }
 .vc_carousel > div:first-child {
 	margin-left: 0;
@@ -1977,8 +2083,12 @@ footer .widget h3{
 	margin-top:-10px;
 }
 
+.vc_min-300{
+	min-width: 300px;
+}
+
 .vc_banner-300{
-	background:#F5F5F5;
+	background:#FFF;
 	padding:20px 15px 15px;
 	margin-top: 10px;
 	text-align: center;
@@ -2363,7 +2473,7 @@ header .vc_primary-menu-wrapper{
 	border: none;
 	background: rgba(255,255,255,.2);
 	color: #FFF;
-	padding: 3px 12px;
+	padding: 6px 12px;
 	margin: 4px 4px 0 6px;
 	outline: none;
 	font-size: 12px;
@@ -2534,11 +2644,14 @@ footer h4{
 	letter-spacing: -.2px;
 }
 .vc_welcome .vc_anim-slide a img{
-	border: #f2f2f2 1px solid;
+	border: #e2e2e2 1px solid;
 	padding:5px;
 	background: #fff;
 }
 
+.vc_welcome .vc_anim-slide a img:hover{
+	background: #e2e2e2;
+}
 
 
 /* Features Block */
@@ -3117,5 +3230,10 @@ body.boxed .vc_map .map{
 	font-weight:bold;
 }
 
+.sidebar-fix{
+	width:300px;
+}
+
 /*Features-Icons.HTML Page*/
 .the-icons i,.the-icons .glyphicon{margin-right:10px;}
+
